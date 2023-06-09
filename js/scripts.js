@@ -28,8 +28,6 @@ function roboGreeting(numberInput) {
 function handleFormSubmission(event) {
     event.preventDefault();
     const userInput = document.getElementById("inputNumber").value;
-    console.log(userInput);
-
 
 }
 
