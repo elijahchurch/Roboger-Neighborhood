@@ -10,6 +10,8 @@ p {
 
 label {
     margin-bottom: 10px;
+    text-decoration: double;
+    font-size: larger;
 }
 
 input {
@@ -29,4 +31,6 @@ input {
 
 #returnAnswer {
     font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
 }

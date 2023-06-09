@@ -4,10 +4,10 @@ function roboGreeting(numberInput) {
     let numberArray = [];
     let finalResult = [];
     if (Math.sign(numberInput) === -1) {
-        finalResult.push("Mr. Roboger only wants positivity in it's neighborhood. Please enter a positive number. Boop.")
+        finalResult.push("Mr. Roboger only wants positivity in its neighborhood. Please enter a positive number. Boop.")
     }
-    if (numberInput >= 300) {
-        finalResult.push("Mr. Roboger has not drained it's morning coffee. Please enter a smaller number. Beep.")
+    if (numberInput >= 250) {
+        finalResult.push("Mr. Roboger has not drained its morning coffee. Please enter a smaller number. Beep.")
     } else {
         for (let i = 0; i <= numberInput; i += 1) {
             numberArray.push(i.toString());
