@@ -1,14 +1,27 @@
 body {
     text-align: center;
     font-size: larger;
-    background-image: url(/images/background.png);
-    background-size: auto;
+    background-image: url(/images/neighborhood.jpg);
+}
+
+p {
+    padding: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 50px;
+    text-align: center;
 }
 
 #greeting {
     border-style: groove;
-    border-radius: 10px;
-    background: rgba(201, 62, 83, 0.5);
+    border-color: rgb(16, 63, 107);
+    border-width: 10px;
+    background: rgba(47, 119, 153, 0.9);
     margin: 0 auto;
     margin-bottom: 25px;
     width: 800px;
@@ -16,5 +29,4 @@ body {
 
 #returnAnswer {
     font-family: monospace;
-    font-weight: 500;
 }

@@ -39,10 +39,10 @@
 **Expected Output:** 
     [0,**"Beep!"**, "Boop!", "Won't you be my neighbor!",4,5]
 
-**Test:** "It should return 'Mr. Roboger only wants positivity in his neighborhood. Please enter a positive number. Boop.' if user inputs a negative number"\
+**Test:** "It should return 'Mr. Roboger only wants positivity in its neighborhood. Please enter a positive number. Boop.' if user inputs a negative number"\
 **Code:** roboGreeting(-5)\
 **Expected Output:** 
-    **"Mr. Roboger only wants positivity in his neighborhood. Please enter a positive number. Boop."**
+    **"Mr. Roboger only wants positivity in its neighborhood. Please enter a positive number. Boop."**
 
 **Test:** "It will return array with each number as a string (so that the indexOf method can be used in the future)"\
 **Code:** roboGreeting(5)\
@@ -85,4 +85,4 @@
 **Extra Test:** "It should return a statement directing the user to input a smaller number"\
 **Code:** roboGreeting(300)\
 **Expected Output:** 
-    **"Mr. Roboger has not drained his morning coffee. Please enter a smaller number. Beep."**
+    **"Mr. Roboger has not drained its morning coffee. Please enter a smaller number. Beep."**
