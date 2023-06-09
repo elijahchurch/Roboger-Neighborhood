@@ -27,10 +27,13 @@ function roboGreeting(numberInput) {
 
 function handleFormSubmission(event) {
     event.preventDefault();
-    const userInput = document.getElementById("inputNumber").value;
-
-}
+    const numberInput = document.getElementById("inputNumber").value;
+    const paragraphAnswer = document.getElementById("returnAnswer");
+    const finalGreeting = roboGreeting(numberInput);
+    paragraphAnswer.innerText = finalGreeting;
+};
 
 window.addEventListener("load", function () {
-    document.querySelector("form").addEventListener("submit", handleFormSubmission);
+    const form = document.querySelector("form");
+    form.addEventListener("submit", handleFormSubmission)
 });
