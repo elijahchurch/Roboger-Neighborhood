@@ -9,6 +9,8 @@ function roboGreeting(numberInput) {
     numberArray.forEach(function (element) {
         if (element === 3) {
             finalResult.push("Won't you be my neighbor?");
+        } else if (element === 2) {
+            finalResult.push("Boop!");
         } else {
             finalResult.push(element);
         }
