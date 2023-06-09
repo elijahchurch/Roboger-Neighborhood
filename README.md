@@ -7,13 +7,20 @@
 ## Technologies Used
 
 * HTML
-* JavaScripts
+* JavaScript
 * Markdown
 * CSS
 * Git Bash
 * Visual Code Studio
 
 ## Description:
+
+This webpage was created and styled with HTML and CSS respectively. It contains a form that prompts the user to input a number in order to receive a greeting from Mr. Roboger. In Javascript, a function was created to take the inputed number and turn it into an array that lists all the values starting from 0 leading to the inputed number. Logic was then added within the function to replace numbers as follows (and in this ordered hierarchy):
+1. If the number contains the digit 3, it will be replaced with the phrase "Won't you be my neighbor?".
+2. If the number contains the digit 2, it will be replaced with the phrase "Boop!".
+3. If the number contains the digit 1, it will be replaced with the phrase "Beep!".
+
+This function was then used within a form submission event function to generate the value as a string and add its return value as innertext for an empty paragraph html element that existed below the form element. 
 
 ## Tests for JavaScript functions
 
@@ -87,4 +94,18 @@
 **Expected Output:** 
     **"Mr. Roboger has not drained its morning coffee. Please enter a smaller number. Beep."**
 
+## Setup/ Installation Requirements
 
+* Clone this repository to your desktop.
+* In the topmost directory of the project, open up all of the code using Visual Code Studio or a similar application to view the written code.
+* The webpage itself can be viewed and interacted with by right-clicking the index.html in Visual Code and opening up a Live Server or visiting this [webpage hosted by github](http://elijahchurch.github.io/Roboger-Neighborhood).
+
+## Known Bugs
+
+* The background image for the webpage isn't reactive.
+
+## License
+
+MIT
+
+Copyright (c) 2023 Jason Elijah Church
