@@ -51,5 +51,10 @@ Test: "It should replace any number that has a '1' as a digit to 'Beep!'"
 Code: roboGreeting(15)
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!", "Beep!","Beep!","Beep!","Beep!","Beep!",]
 
+Test: "It should return numbers back instead of strings where the stipulationas are met"
+Code: roboGreeting(10)
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!"] 
+  Note: the two tests above were returning numbers as strings i.e. "0" instead of 0
+
 
 

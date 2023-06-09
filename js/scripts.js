@@ -17,7 +17,7 @@ function roboGreeting(numberInput) {
         } else if (element.indexOf("1") !== -1) {
             finalResult.push("Beep!")
         } else {
-            finalResult.push(element);
+            finalResult.push(+element);
         }
     })
     return finalResult;
