@@ -11,6 +11,8 @@ function roboGreeting(numberInput) {
             finalResult.push("Won't you be my neighbor?");
         } else if (element === 2) {
             finalResult.push("Boop!");
+        } else if (element === 1) {
+            finalResult.push("Beep!")
         } else {
             finalResult.push(element);
         }

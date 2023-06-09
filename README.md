@@ -27,6 +27,10 @@ Test: "It should return 'Won't you be my neighbor?' instead of '3' from an array
 Code: roboGreeting(5)
 Expected Output: [0,1,2,"Won't you be my neighbor?",4,5]
 
-Test: "It should return 'Boop!' instead of '2' from an array of 5 (in addition to replacment for 3)"
+Test: "It should return 'Boop!' instead of '2' from an array of 5 (in addition to  the replacement for 3)"
 Code: RoboGreeting(5)
-Expected Output: [0,1,"Boop!", "Won't you be my neighbor?, 4,5]
+Expected Output: [0,1,"Boop!", "Won't you be my neighbor?", 4,5]
+
+Test: "It should return 'Beep!' instead of '1' from an array of 5 (in addiition to the replacement for 3 and 2)"
+Code: RoboGreeting(5)
+Expected Output: [0,"Beep!", "Boop!", "Won't you be my neighbor!",4,5]
