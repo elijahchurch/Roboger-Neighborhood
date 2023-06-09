@@ -25,10 +25,14 @@ function roboGreeting(numberInput) {
 
 // UI Logic
 
-function handleFormSubmission() {
+function handleFormSubmission(event) {
+    event.preventDefault();
+    const userInput = document.getElementById("inputNumber").value;
+    console.log(userInput);
+
 
 }
 
 window.addEventListener("load", function () {
-    document.querySelector("form").addEventListener("submit", handleFormSubmission());
+    document.querySelector("form").addEventListener("submit", handleFormSubmission);
 });
