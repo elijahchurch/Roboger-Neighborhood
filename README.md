@@ -82,3 +82,7 @@
 **Expected Output:** 
     **"0 Beep! Boop! Won't you be my neighbor! 4 5 6 7 8 9 Beep! Boop! Won't you be my neighbor?"**
 
+**Extra Test:** "It should return a statement directing the user to input a smaller number"\
+**Code:** roboGreeting(300)\
+**Expected Output:** 
+    **"Mr. Roboger has not drained his morning coffee. Please enter a smaller number. Beep."**

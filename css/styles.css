@@ -4,3 +4,17 @@ body {
     background-image: url(/images/background.png);
     background-size: auto;
 }
+
+#greeting {
+    border-style: groove;
+    border-radius: 10px;
+    background: rgba(201, 62, 83, 0.5);
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 800px;
+}
+
+#returnAnswer {
+    font-family: monospace;
+    font-weight: 500;
+}
