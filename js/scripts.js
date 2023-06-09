@@ -7,8 +7,9 @@ function roboGreeting(numberInput) {
         finalResult.push("Mr. Roboger only wants positivity in his neighborhood. Please enter a positive number. Boop.")
     }
     for (let i = 0; i <= numberInput; i += 1) {
-        numberArray.push(i);
+        numberArray.push(i.toString());
     }
+    return numberArray;
     numberArray.forEach(function (element) {
         if (element === 3) {
             finalResult.push("Won't you be my neighbor?");
