@@ -3,6 +3,9 @@
 function roboGreeting(numberInput) {
     let numberArray = [];
     let finalResult = [];
+    if (Math.sign(numberInput) === -1) {
+        finalResult.push("Mr. Roboger only wants positivity in his neighborhood. Please enter a positive number. Boop.")
+    }
     for (let i = 0; i <= numberInput; i += 1) {
         numberArray.push(i);
     }
