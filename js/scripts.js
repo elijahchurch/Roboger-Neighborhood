@@ -31,10 +31,11 @@ function roboGreeting(numberInput) {
 
 function handleFormSubmission(event) {
     event.preventDefault();
-    const numberInput = document.getElementById("inputNumber").value;
+    let numberInput = document.getElementById("inputNumber");
     const paragraphAnswer = document.getElementById("returnAnswer");
-    const finalGreeting = roboGreeting(numberInput);
+    const finalGreeting = roboGreeting(numberInput.value);
     paragraphAnswer.innerText = finalGreeting;
+    numberInput.value = "";
 };
 
 window.addEventListener("load", function () {
