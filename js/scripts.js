@@ -10,9 +10,9 @@ function roboGreeting(numberInput) {
         numberArray.push(i.toString());
     }
     numberArray.forEach(function (element) {
-        if (element === '3') {
+        if (element.indexOf("3") !== -1) {
             finalResult.push("Won't you be my neighbor?");
-        } else if (element === '2') {
+        } else if (element.indexOf("2") !== -1) {
             finalResult.push("Boop!");
         } else if (element.indexOf("1") !== -1) {
             finalResult.push("Beep!")

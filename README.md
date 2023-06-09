@@ -51,10 +51,13 @@ Test: "It should replace any number that has a '1' as a digit to 'Beep!'"
 Code: roboGreeting(15)
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!", "Beep!","Beep!","Beep!","Beep!","Beep!",]
 
-Test: "It should return numbers back instead of strings where the stipulationas are met"
+Test: "It should return numbers back instead of strings where the stipulations are met"
 Code: roboGreeting(10)
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!"] 
   Note: the two tests above were returning numbers as strings i.e. "0" instead of 0
 
+Test: "It should replace any number that has '2' as a digit to 'Boop!", with a hierachy substition when a number has '1' and '2' in it"
+Code: roboGreeting(12)
+Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!", "Beep!","Boop!"]
 
 
