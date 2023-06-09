@@ -55,7 +55,7 @@
     [0, **"Beep!"**, "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,**"Beep!"**]
 
 **Test:** "It should replace any number that has a '1' as a digit to 'Beep!'"\
-    Note: At this point, the function is now creating elements as strings, but to make it less confusing for me I am still referring to the elements as a number, and will do so going forward.\
+    Note: At this point, the function is now creating elements as strings, but to make it less confusing for me I am referring to the elements as a number, and will do so going forward.\
 **Code:** roboGreeting(15)\
 **Expected Output:** 
     [0, **"Beep!"**, "Boop!", "Won't you be my neighbor!",4,5,6,7,8,9,**"Beep!"**, **"Beep!"**,**"Beep!"**,**"Beep!"**,**"Beep!"**,**"Beep!"**,]
@@ -66,12 +66,12 @@
     [**0**, "Beep!", "Boop!", "Won't you be my neighbor!",**4**,**5**,**6**,**7**,**8**,**9**,"Beep!"]\
     Note: the two tests above were returning numbers as strings i.e. "0" instead of 0
 
-**Test:** "It should replace any number that has '2' as a digit to 'Boop!", with a hierachy substition when a number has '1' and '2' in it"\
+**Test:** "It should replace any number that has '2' as a digit to 'Boop!", with a hierachy substitution when a number has '1' and '2' in it"\
 **Code:** roboGreeting(12)\
 **Expected Output:** 
     [0, "Beep!", **"Boop!"**, "Won't you be my neighbor!",4,5,6,7,8,9,"Beep!", "Beep!",**"Boop!"**]
 
-**Test:** "It should replace any number that has '3' as a digit to 'Won't you be my neighbor?', with a hierachy subsition when a number has '1' or '2' in it"\
+**Test:** "It should replace any number that has '3' as a digit to 'Won't you be my neighbor?', with a hierachy substitution when a number has '1' or '2' in it"\
 **Code:** roboGreeting(23)\
 **Expected Output:** 
     [0, "Beep!", "Boop!", **"Won't you be my neighbor!"**,4,5,6,7,8,9,"Beep!", "Beep!","Boop!", **"Won't you be my neighbor?"**,"Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Beep!", "Boop!", "Boop!", "Boop!", **"Won't you be my neighbor?"**]
