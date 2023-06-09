@@ -23,21 +23,12 @@ function roboGreeting(numberInput) {
     return finalResult.join(" ");
 };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // UI Logic
+
+function handleFormSubmission() {
+
+}
+
+window.addEventListener("load", function () {
+    document.querySelector("form").addEventListener("submit", handleFormSubmission());
+});
